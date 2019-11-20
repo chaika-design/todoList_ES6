@@ -1,0 +1,26 @@
+#todoList {
+  padding-left: 0;
+}
+.well {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  border: 1px solid #ddd;
+  border-radius: .4rem;
+  padding: .5rem 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.well label {
+  margin-bottom: 0;
+  flex-grow: 2;
+}
+
+.well.completed {
+  background: #eee;
+}
+
+.well.completed label {
+  text-decoration: line-through;
+  color: #aaa;
+}
